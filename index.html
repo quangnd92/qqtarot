@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff3f8">
+  <meta name="description" content="Harry Cuteer — không gian chiêm nghiệm qua Tarot, Lenormand, thần số học, bản đồ sao và trà tiên tri.">
+  <title>Harry Cuteer — A Little Universe Within</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Harry Cuteer trang chủ">
+      <span class="brand-mark">✦</span><span>harry <b>cuteer</b><small>YOUR LITTLE COSMIC CORNER</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Mở menu">☰</button>
+    <nav id="mainNav">
+      <a href="#readings">Khám phá</a><a href="#how">Cách xem</a><a href="#packages">Gói trải bài</a>
+      <a href="#about">Về chúng mình</a>
+      <button class="nav-cta" data-scroll="#readings">Bắt đầu hành trình <span>↗</span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="sparkle">✧</span> A LITTLE UNIVERSE WITHIN <span class="eyebrow-line"></span></div>
+        <h1>Đôi khi, câu trả lời<br>nằm trong <em>chính bạn.</em></h1>
+        <p class="hero-desc">Một góc nhỏ dịu dàng để bạn lắng nghe trực giác, soi chiếu những điều đang diễn ra và tìm thêm một góc nhìn cho hành trình của mình.</p>
+        <div class="hero-actions">
+          <button class="button button-primary" data-scroll="#readings">Tìm trải nghiệm của bạn <span>↗</span></button>
+          <a class="text-link" href="#how">Khám phá cách xem <span>↓</span></a>
+        </div>
+        <div class="hero-proof"><div class="avatar-stack"><span>☾</span><span>✧</span><span>♡</span></div><p><b>Một khoảng lặng dành riêng cho bạn</b><br><small>Không phán xét · Không áp đặt · Chỉ cùng bạn chiêm nghiệm</small></p></div>
+      </div>
+      <div class="hero-art" aria-label="Minh họa vũ trụ pastel">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="moon">☾</div><span class="star star-a">✦</span><span class="star star-b">✧</span><span class="star star-c">✦</span>
+        <div class="tarot-card card-back"><div class="card-inner"><span>✧</span><div class="card-sun">☼</div><div class="card-flower">✺</div><span>✧</span></div></div>
+        <div class="tarot-card card-front"><div class="card-inner"><small>XVII</small><div class="star-card">✦</div><div class="card-wave">〰</div><b>THE STAR</b><small>HOPE · RENEWAL</small></div></div>
+        <div class="art-caption"><span class="caption-dot"></span> YOUR STORY, YOUR MEANING</div>
+      </div>
+      <div class="hero-bottom-note"><span>✧</span> Mỗi trải nghiệm là một lời mời nhìn sâu hơn, không phải lời phán quyết về tương lai.</div>
+    </section>
+
+    <section class="intro-strip">
+      <div><span>✦</span> Chạm vào trực giác</div><div><span>☾</span> Hiểu mình rõ hơn</div><div><span>♡</span> Tìm góc nhìn mới</div><div><span>✧</span> Đi theo nhịp riêng</div>
+    </section>
+
+    <section class="section-wrap readings-section" id="readings">
+      <div class="section-heading">
+        <div><div class="eyebrow">CHOOSE YOUR PATH</div><h2>Bạn muốn khám phá<br><em>điều gì hôm nay?</em></h2></div>
+        <p>Mỗi hệ thống có một ngôn ngữ riêng. Hãy chọn điều khiến bạn tò mò nhất — bạn có thể đổi lựa chọn bất cứ lúc nào.</p>
+      </div>
+      <div class="reading-grid">
+        <button class="reading-card selected" data-reading="tarot">
+          <span class="reading-icon icon-tarot">☾</span><span class="card-kicker">THE CLASSIC</span><h3>Tarot</h3><p>Biểu tượng, cảm xúc và những góc khuất trong câu chuyện của bạn.</p><span class="card-bottom">Khám phá Tarot <b>↗</b></span><span class="card-number">01</span>
+        </button>
+        <button class="reading-card" data-reading="lenormand">
+          <span class="reading-icon icon-lenormand">♧</span><span class="card-kicker">CLEAR & DIRECT</span><h3>Lenormand</h3><p>Đọc các biểu tượng và mối liên kết để nhìn tình huống cụ thể hơn.</p><span class="card-bottom">Khám phá Lenormand <b>↗</b></span><span class="card-number">02</span>
+        </button>
+        <button class="reading-card" data-reading="numerology">
+          <span class="reading-icon icon-numerology">∞</span><span class="card-kicker">YOUR NUMBERS</span><h3>Thần số học</h3><p>Khám phá những chủ đề về bản thân qua ngày sinh và các con số.</p><span class="card-bottom">Tìm con số của bạn <b>↗</b></span><span class="card-number">03</span>
+        </button>
+        <button class="reading-card" data-reading="birthchart">
+          <span class="reading-icon icon-chart">☉</span><span class="card-kicker">COSMIC BLUEPRINT</span><h3>Bản đồ sao</h3><p>Chiêm nghiệm vị trí các hành tinh, cung hoàng đạo và nhà chiêm tinh.</p><span class="card-bottom">Khám phá bản đồ sao <b>↗</b></span><span class="card-number">04</span>
+        </button>
+        <button class="reading-card" data-reading="tea">
+          <span class="reading-icon icon-tea">♨</span><span class="card-kicker">SLOW MOMENTS</span><h3>Bài trà</h3><p>Để trí tưởng tượng kể chuyện qua hình dáng và biểu tượng trong tách trà.</p><span class="card-bottom">Thưởng trà & chiêm nghiệm <b>↗</b></span><span class="card-number">05</span>
+        </button>
+        <button class="reading-card" data-reading="oracle">
+          <span class="reading-icon icon-oracle">✺</span><span class="card-kicker">A GENTLE MESSAGE</span><h3>Oracle</h3><p>Một thông điệp gợi mở để bạn dừng lại, lắng nghe và viết tiếp câu chuyện.</p><span class="card-bottom">Nhận thông điệp <b>↗</b></span><span class="card-number">06</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="experience-section" id="experience">
+      <div class="experience-orb orb-left">✧</div><div class="experience-orb orb-right">☾</div>
+      <div class="section-wrap experience-layout">
+        <div class="experience-copy"><div class="eyebrow">YOUR PERSONAL SESSION</div><h2><em id="formTitle">Tarot</em> dành riêng<br>cho câu chuyện của bạn.</h2><p id="formDescription">Hãy chia sẻ điều bạn đang băn khoăn. Một trải bài tốt bắt đầu từ câu hỏi đúng — không cần phải thật hoàn hảo, chỉ cần chân thật với chính mình.</p>
+          <div class="mini-note"><span>♡</span><p><b>Không biết nên hỏi gì?</b><br>Hãy kể câu chuyện theo cách tự nhiên nhất. Bạn có thể cùng reader xây dựng bộ câu hỏi phù hợp.</p></div>
+        </div>
+        <form class="reading-form" id="readingForm">
+          <div class="form-top"><div><span class="form-step">LET'S BEGIN · 01</span><h3>Tạo trải nghiệm của bạn</h3></div><span class="form-moon">☾</span></div>
+          <label for="topic">Bạn đang quan tâm đến</label>
+          <select id="topic" name="topic" required><option value="Tình cảm">♡ Tình cảm & mối quan hệ</option><option value="Công việc">✧ Công việc & sự nghiệp</option><option value="Tài chính">☼ Tài chính</option><option value="Học tập">✎ Học tập</option><option value="Phát triển bản thân">❀ Phát triển bản thân</option><option value="Định hướng">☾ Định hướng tương lai</option><option value="Khác">✦ Chủ đề khác</option></select>
+          <div class="form-row"><div><label for="package">Chọn gói trải bài</label><select id="package" name="package"><option value="Cơ bản — 90.000đ">Cơ bản · 3 câu — 90.000đ</option><option value="Chiêm nghiệm — 150.000đ" selected>Chiêm nghiệm · 5 câu — 150.000đ</option><option value="Premium — 250.000đ">Premium · 7 câu — 250.000đ</option></select></div><div><label for="contact">Tên gọi của bạn</label><input id="contact" name="contact" placeholder="Bạn muốn được gọi là..." required></div></div>
+          <label for="story">Bạn muốn chia sẻ điều gì?</label><textarea id="story" name="story" rows="4" placeholder="Cứ kể tự nhiên như đang tâm sự. Điều gì khiến bạn băn khoăn nhất lúc này?" required></textarea>
+          <div class="form-hint"><span>✧</span> Thông tin ngày/giờ sinh chỉ cần thiết với một số hình thức chiêm nghiệm.</div>
+          <button class="button button-primary form-submit" type="submit">Xem lại lựa chọn <span>↗</span></button>
+          <p class="form-privacy">Bản demo giao diện · Chưa gửi dữ liệu lên máy chủ.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section-wrap how-section" id="how">
+      <div class="section-heading centered"><div><div class="eyebrow">A SOFT, SIMPLE PROCESS</div><h2>Mọi thứ bắt đầu<br>từ <em>một câu chuyện.</em></h2></div><p>Không cần biết trước mọi câu hỏi. Bạn chỉ cần đến với sự tò mò và một chút không gian cho bản thân.</p></div>
+      <div class="steps">
+        <article><span class="step-number">01</span><div class="step-icon">✧</div><h3>Chọn hệ thống</h3><p>Tarot, Lenormand, thần số học hay một hình thức khác phù hợp với điều bạn muốn khám phá.</p></article>
+        <article><span class="step-number">02</span><div class="step-icon">♡</div><h3>Kể câu chuyện</h3><p>Chia sẻ bối cảnh và điều khiến bạn băn khoăn. Không cần viết câu hỏi thật hoàn hảo.</p></article>
+        <article><span class="step-number">03</span><div class="step-icon">☾</div><h3>Cùng chọn câu hỏi</h3><p>Reader đề xuất hướng trải bài để bạn xem lại và xác nhận trước khi đặt dịch vụ.</p></article>
+        <article><span class="step-number">04</span><div class="step-icon">✦</div><h3>Nhận góc nhìn mới</h3><p>Dành thời gian suy ngẫm và tự quyết định điều gì phù hợp với hoàn cảnh của mình.</p></article>
+      </div>
+    </section>
+
+    <section class="packages-section" id="packages">
+      <div class="section-wrap">
+        <div class="section-heading"><div><div class="eyebrow">FIND YOUR DEPTH</div><h2>Chọn độ sâu<br><em>bạn cần lúc này.</em></h2></div><p>Một vấn đề nhỏ có thể cần vài câu hỏi rõ ràng. Một câu chuyện nhiều lớp có thể cần thêm thời gian để nhìn toàn diện.</p></div>
+        <div class="package-grid">
+          <article class="package-card"><span class="package-label">A LITTLE CLARITY</span><h3>Cơ bản</h3><p class="package-desc">Cho một điều đang khiến bạn băn khoăn.</p><div class="price">90.000<span>đ</span></div><div class="question-count">03 câu hỏi</div><ul><li>Chọn một chủ đề</li><li>Bộ câu hỏi gợi ý</li><li>Góc nhìn tập trung</li></ul><button class="button button-soft" data-package="Cơ bản — 90.000đ">Chọn gói này <span>↗</span></button></article>
+          <article class="package-card package-featured"><div class="popular-tag">ĐƯỢC YÊU THÍCH</div><span class="package-label">GO A LITTLE DEEPER</span><h3>Chiêm nghiệm</h3><p class="package-desc">Đào sâu cảm xúc, nguyên nhân và hướng đi.</p><div class="price">150.000<span>đ</span></div><div class="question-count">05 câu hỏi</div><ul><li>Một câu chuyện trọng tâm</li><li>Bộ câu hỏi cá nhân hóa</li><li>Nhìn vấn đề từ nhiều phía</li></ul><button class="button button-primary" data-package="Chiêm nghiệm — 150.000đ">Chọn gói này <span>↗</span></button></article>
+          <article class="package-card"><span class="package-label">THE BIGGER PICTURE</span><h3>Premium</h3><p class="package-desc">Cho câu chuyện có nhiều khía cạnh.</p><div class="price">250.000<span>đ</span></div><div class="question-count">07 câu hỏi</div><ul><li>Khám phá nhiều lớp vấn đề</li><li>Bộ câu hỏi cá nhân hóa</li><li>Góc nhìn tổng thể hơn</li></ul><button class="button button-soft" data-package="Premium — 250.000đ">Chọn gói này <span>↗</span></button></article>
+        </div>
+        <p class="package-footnote">Các mức giá trên được kế thừa từ menu bot hiện tại. Hãy xác nhận lại nội dung dịch vụ trước khi mở website chính thức.</p>
+      </div>
+    </section>
+
+    <section class="quote-section" id="about"><div class="quote-stars">✦　　✧　☾　✧</div><blockquote>“Bạn không cần một lời phán quyết.<br>Bạn xứng đáng có <em>không gian để hiểu mình.</em>”</blockquote><p>HARRY CUTEER · YOUR LITTLE COSMIC CORNER</p><div class="quote-bottom">✧</div></section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">✦</span><span>harry <b>cuteer</b><small>YOUR LITTLE COSMIC CORNER</small></span></a><p>Tarot & các hệ thống chiêm nghiệm · Một góc nhìn, không phải lời phán quyết.</p><div class="footer-links"><a href="#readings">Khám phá</a><a href="#packages">Gói trải bài</a><a href="#how">Cách xem</a></div><small class="disclaimer">Các nội dung mang tính tham khảo và tự chiêm nghiệm; không đảm bảo dự đoán chắc chắn tương lai, không thay thế tư vấn y tế, pháp lý hoặc tài chính.</small><div class="copyright">© 2026 Harry Cuteer. Made with a little moonlight ♡</div></footer>
+
+  <dialog id="confirmDialog" class="confirm-dialog">
+    <button class="dialog-close" id="dialogClose" aria-label="Đóng">×</button>
+    <div id="previewStep">
+      <div class="dialog-symbol">✧</div>
+      <div class="eyebrow">YOUR SESSION PREVIEW</div>
+      <h2>Hành trình của bạn<br><em>sắp bắt đầu.</em></h2>
+      <div id="previewContent" class="preview-content"></div>
+      <p class="dialog-note">Kiểm tra lại thông tin trước khi tiếp tục. Chưa có khoản thanh toán nào được thực hiện ở bước này.</p>
+      <div class="dialog-actions">
+        <button class="button button-soft" id="editRequest" type="button">Chỉnh sửa</button>
+        <button class="button button-primary" id="continuePayment" type="button">Tiếp tục thanh toán <span>↗</span></button>
+      </div>
+    </div>
+    <div id="paymentStep" hidden>
+      <div class="dialog-symbol">☾</div>
+      <div class="eyebrow">PAYMENT · STEP 02</div>
+      <h2>Hoàn tất đặt<br><em>trải bài của bạn.</em></h2>
+      <div class="payment-details">
+        <p><b>Hệ thống</b><span id="paymentReading">—</span></p>
+        <p><b>Chủ đề</b><span id="paymentTopic">—</span></p>
+        <p><b>Gói</b><span id="paymentPackage">—</span></p>
+        <p><b>Số tiền</b><span id="paymentAmount">—</span></p>
+        <p><b>Mã đơn demo</b><span id="demoOrderId">—</span></p>
+      </div>
+      <section class="payment-qr-card" aria-label="Mã QR chuyển khoản">
+        <p class="payment-qr-title">QUÉT MÃ ĐỂ THANH TOÁN</p>
+        <img class="payment-qr-image" src="payment_qr.PNG" alt="Mã QR thanh toán Vietcombank">
+        <div class="payment-bank-details">
+          <p><b>Ngân hàng</b><span>Vietcombank</span></p>
+          <p><b>Số tài khoản</b><span>0881000469532</span></p>
+          <p><b>Chủ tài khoản</b><span>NGUYEN THI THU SUONG</span></p>
+          <p><b>Nội dung chuyển khoản</b><span id="paymentTransferNote">—</span></p>
+        </div>
+        <button class="button button-soft copy-transfer" id="copyTransferNote" type="button">Sao chép nội dung chuyển khoản</button>
+      </section>
+      <div class="payment-warning"><b>Lưu ý:</b> kiểm tra đúng số tiền và thông tin người nhận trước khi chuyển khoản. Đây vẫn là bản demo giao diện; đơn chưa được lưu lên máy chủ và thanh toán chưa được tự động xác minh.</div>
+      <label class="upload-receipt" for="receiptFile"><span>＋</span><b>Chọn ảnh biên lai để thử giao diện</b><small>Ảnh chỉ được chọn trong trình duyệt, chưa tải lên máy chủ.</small><input id="receiptFile" type="file" accept="image/*"></label>
+      <p id="receiptStatus" class="receipt-status" aria-live="polite"></p>
+      <div id="receiptSuccess" class="receipt-success" hidden><b>Đã hoàn tất bước demo!</b><br>Để nhận thanh toán thật, cần kết nối backend và quy trình xác nhận bill qua Telegram.</div>
+      <div class="dialog-actions">
+        <button class="button button-soft" id="backToPreview" type="button">Quay lại thông tin</button>
+        <button class="button button-primary" id="demoSubmitReceipt" type="button">Gửi bill demo <span>↗</span></button>
+      </div>
+      <p class="form-privacy">Chế độ demo: chưa tạo đơn thật, chưa xác nhận thanh toán và chưa gửi dữ liệu đi.</p>
+    </div>
+  </dialog>
+  <script src="app.js"></script>
+</body>
+</html>
